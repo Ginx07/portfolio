@@ -1,52 +1,29 @@
-# Raspberry Pi 5 NAS + Secure Remote Access
+# Hi there 👋 I'm Garan
 
-This project transforms a Raspberry Pi 5 into a functional, secure, and remotely accessible Network Attached Storage (NAS) solution using **OpenMediaVault** and **WireGuard VPN**. Designed to showcase hands-on Linux administration, VPN configuration, and multi-user storage setup—all on a compact, energy-efficient platform.
+🚀 Aspiring Software & Web Developer with a passion for solving real-world problems through practical tech projects. I'm self-taught through structured programs like [The Odin Project](https://www.theodinproject.com), and I love diving deep into hands-on builds—from Raspberry Pi home labs to cloud-native development with Azure.
 
-## 🔧 Tech Stack & Tools
-- Raspberry Pi 5 (SD-based storage due to SSD detection issue)
-- OpenMediaVault 6 (Debian-based NAS OS)
-- WireGuard VPN (via OMV plugin and PiVPN)
-- SMB/CIFS for file sharing across Windows/macOS/Linux
-- SSH for remote administration
-- Raspbian Lite (base OS)
+## 🔧 Current Skill Stack
+- **Frontend:** JavaScript, React.js
+- **Backend:** Node.js, basic SQL
+- **Infra & Tools:** Linux (Raspbian/Ubuntu), SSH, OpenMediaVault, WireGuard VPN, SMB/CIFS
+- **Cloud:** Microsoft Azure (AZ-900 certified)
+- **Security:** CompTIA Security+ | ISC² Certified in Cybersecurity (CC)
 
-## 🎯 Project Goals
-- Set up reliable, scalable NAS for local and remote access
-- Enable multi-user file permissions and role-based access
-- Ensure secure remote connectivity from mobile devices via VPN
-- Document challenges and solutions for recruiter-ready presentation
+## 📦 Projects & Highlights
+- 🧰 **Raspberry Pi 5 NAS with OpenMediaVault**: Configured multi-user file sharing with secure remote access via WireGuard
+- 🌐 **Personal Portfolio Website (in progress)**: Showcasing my projects, documentation style, and resume
+- 🧪 Ongoing dev projects that mix cloud architecture, web development, and network tinkering
 
-## 🚀 Features
-- 🔐 Secure access via WireGuard (tested on iOS/Android)
-- 🗃️ SMB file sharing with custom user/group permissions
-- 📡 Remote configuration through SSH and OMV web UI
-- 🧱 Modular structure for future expansion (e.g. Docker containers, cloud sync)
-- 🔍 Lightweight monitoring and logs for troubleshooting
+## 🎯 What I'm Working Toward
+- Junior developer or IT infrastructure role where I can grow and contribute
+- Clean, documented code and strong Git/GitHub workflows
+- Collaborating with devs and tech teams that value curiosity and clear communication
 
-## ⚠️ Technical Challenges & Solutions
-| Challenge                            | Solution                                     |
-|-------------------------------------|----------------------------------------------|
-| SSD not detected via USB            | Pivoted to SD-based storage + documented issue |
-| WireGuard not appearing in OMV UI   | Enabled OMV-Extras + manually configured VPN |
-| Multi-device remote access issues   | Refined configuration profiles per device    |
+## 📫 Let’s Connect!
+I'm open to opportunities and relocation—especially in Tampa, FL or Charlotte, NC.  
+Reach out to collaborate, swap feedback, or just say hi!
 
-## 📝 Setup Overview
-1. Flash Raspbian Lite to SD card
-2. Install OMV via official script
-3. Configure static IP, user groups, shared folders via OMV
-4. Install WireGuard using OMV-Extras or PiVPN
-5. Generate peer configurations for mobile clients
-6. Test VPN connection and verify external access
+🔗 [LinkedIn](https://www.linkedin.com/in/garan-johnson/)
+🛠️ [Resume](https://1drv.ms/w/c/2a197013f1277060/EQcvBtLc5vRCst-UPwcgKgUBuZty2yZToo_FlGetvgLGYA?e=9V0nir)
+📁 [Featured Projects](https://github.com/Ginx07?tab=projects)
 
-## 📚 What I Learned
-- Deepened understanding of Linux-based networking and permissions
-- Refined troubleshooting workflow in constrained hardware environments
-- Practiced clear documentation of technical processes
-- Strengthened my Git/GitHub workflows for project presentation
-
-## 🤝 Opportunities
-Open to feedback, collaboration, or job opportunities related to:
-- Full-stack development
-- Systems administration
-- Cloud-native architecture
-- DevOps & home lab 
