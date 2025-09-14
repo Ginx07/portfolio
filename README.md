@@ -1,4 +1,4 @@
-# Hi there 👋 I'm Garan
+# Hey 👋 I'm Garan
 
 🚀 Aspiring Software & Web Developer with a passion for solving real-world problems through practical tech projects. I'm self-taught through structured programs like [The Odin Project](https://www.theodinproject.com), and I love diving deep into hands-on builds—from Raspberry Pi home labs to cloud-native development with Azure.
 
